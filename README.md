@@ -20,6 +20,8 @@ Questions and suggestions may be sent to
 Installing
 ----------
 Ideally, you should be able to just type:
+    brew install openssl@1.1
+    brew install libssh2 # do not uninstall
     export PATH=/opt/homebrew/opt/openssl@1.1/bin:$PATH
     ./configure --with-openssl=/opt/homebrew/opt/openssl@1.1/       --with-libpcre=included         --with-liblua=included       --without-nmap-update       --disable-universal       --without-zenmap
     make
