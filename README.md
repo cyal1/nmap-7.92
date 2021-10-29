@@ -20,13 +20,14 @@ Questions and suggestions may be sent to
 Installing
 ----------
 Ideally, you should be able to just type:
+```
     brew install openssl@1.1
     brew install libssh2 # do not uninstall
     export PATH=/opt/homebrew/opt/openssl@1.1/bin:$PATH
     ./configure --with-openssl=/opt/homebrew/opt/openssl@1.1/       --with-libpcre=included         --with-liblua=included       --without-nmap-update       --disable-universal       --without-zenmap
     make
     make install
-
+```
 For far more in-depth compilation, installation, and removal notes, read the
 [Nmap Install Guide](https://nmap.org/book/install.html) on Nmap.org.
 
